@@ -1,4 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Imports
+
+yarn add styled-components<br />
+yarn add react-router-dom<br />
+yarn add react-icons<br />
+yarn add-react-scroll
 
 ## Available Scripts
 
