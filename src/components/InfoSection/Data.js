@@ -11,7 +11,6 @@ export const homeObjOne = {
     img: require('../../images/svg-1.svg'),
     alt: 'Car',
     dark: true,
-    dark2: true,
     primary: true,
     darkText: false
 }
@@ -29,16 +28,15 @@ export const homeObjTwo = {
     img: require('../../images/svg-2.svg'),
     alt: 'Car',
     dark: false,
-    dark2: false,
     primary: false,
     darkText: true
 }
 
 export const homeObjThree = {
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topline: 'Join our Team',
     headline: 'Creating an account is extremely easy',
     description: "Get everything to set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
@@ -46,8 +44,7 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/svg-3.svg'),
     alt: 'Car',
-    dark: true,
-    dark2: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }
