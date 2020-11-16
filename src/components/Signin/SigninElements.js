@@ -12,8 +12,8 @@ export const Container = styled.div`
     overflow: hidden;
     background: linear-gradient(
         180deg,
-        rgba(1, 147, 86, 1) 0%,
-        rgba(10, 201, 122, 1) 100%
+        rgba(9, 12, 27, 1) 0%,
+        rgba(9, 12, 27, 1) 100%
     );
 `
 
@@ -32,7 +32,7 @@ export const Icon = styled(Link)`
     margin-left: 32px;
     margin-top: 32px;
     text-decoration: none;
-    color: #FFF;
+    color: #ffb400;
     font-weight: 700;
     font-size: 32px;
 
@@ -72,7 +72,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
     margin-bottom: 40px;
-    color: #FFF;
+    color: #ffb400;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -92,11 +92,11 @@ export const FormInput = styled.input`
 `
 
 export const FormButton = styled.button`
-    background: #01bf71;
+    background: #ffb400;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: #FFF;
+    color: #000;
     font-size: 20px;
     cursor: pointer;
 `

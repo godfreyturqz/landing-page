@@ -35,28 +35,18 @@ const Footer = () => {
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink to='/'>How it works</FooterLink>
                                 <FooterLink to='/'>Testimonials</FooterLink>
                                 <FooterLink to='/'>Careers</FooterLink>
                                 <FooterLink to='/'>Investors</FooterLink>
-                                <FooterLink to='/'>Terms of Service</FooterLink>
+                                <FooterLink to='/'>Projects</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Contact us</FooterLinkTitle>
                                 <FooterLink to='/'>Contact</FooterLink>
                                 <FooterLink to='/'>Support</FooterLink>
-                                <FooterLink to='/'>Destinations</FooterLink>
-                                <FooterLink to='/'>Sponsorships</FooterLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
-                            <FooterLinkItems>
-                                <FooterLinkTitle>Videos</FooterLinkTitle>
-                                <FooterLink to='/'>Submit Video</FooterLink>
-                                <FooterLink to='/'>Ambassadors</FooterLink>
-                                <FooterLink to='/'>Agency</FooterLink>
-                                <FooterLink to='/'>Influencer</FooterLink>
-                            </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Social Media</FooterLinkTitle>
                                 <FooterLink to='/'>Instagram</FooterLink>
@@ -68,10 +58,10 @@ const Footer = () => {
                     </FooterLinksContainer>
                     <SocialMedia>
                         <SocialMediaWrap>
-                            <SocialLogo to='/' onClick={toggleHome}>dolla</SocialLogo>
-                            <WebsiteRights>dolla © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                            <SocialLogo to='/' onClick={toggleHome}>Home Build</SocialLogo>
+                            <WebsiteRights>homebuild © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                             <SocialIcons>
-                                <SocialIconLink href='//www.facebook.com/godfreyturqueza' target='_blank' aria-label='Facebook'>
+                                <SocialIconLink href='#' target='_blank' aria-label='Facebook'>
                                     <FaFacebook/>
                                 </SocialIconLink>
                                 <SocialIconLink href='/' target='_blank' aria-label='Instagram'>

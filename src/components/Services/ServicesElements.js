@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 
 export const ServicesContainer = styled.div`
-    height: 940px;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #010606;
+    background: #090c1b;
 
     @media screen and (max-width: 768px){
         height: 1100px;
@@ -37,7 +37,7 @@ export const ServicesWrapper = styled.div`
 `
 
 export const ServicesCard = styled.div`
-    background: #FFF;
+    background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +63,7 @@ export const ServicesIcon = styled.img`
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
-    color: #FFF;
+    color: #ffb400;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px){

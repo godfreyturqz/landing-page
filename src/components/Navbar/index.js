@@ -35,26 +35,28 @@ const Navbar = ({toggle}) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>dolla</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>Home Build</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
-                            <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="discover" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Discover</NavLinks>
-                        </NavItem>
+                        
                         <NavItem>
                             <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Services</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLinks>
+                            <NavLinks to="engineering" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Engineering</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="procurement" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Procurement</NavLinks>
+                        </NavItem>
+                        
+                        <NavItem>
+                            <NavLinks to="construction" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Construction</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+                        <NavBtnLink to='/signin'>Free Quote</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

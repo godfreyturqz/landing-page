@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from "../../images/svg-1.svg";
-import Icon2 from "../../images/svg-2.svg";
-import Icon3 from "../../images/svg-3.svg";
+import Icon1 from "../../images/engineering.svg";
+import Icon2 from "../../images/procurement.svg";
+import Icon3 from "../../images/construction.svg";
 import { 
     ServicesContainer,
     ServicesH1,
@@ -20,18 +20,18 @@ const Services = () => {
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
-                        <ServicesH2>Reduce expenses</ServicesH2>
-                        <ServicesP>We help reduce your fees and increase your overall revenue.</ServicesP>
+                        <ServicesH2>Engineering</ServicesH2>
+                        <ServicesP>Lorem ipsum dolor sit amet.</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon2} />
-                        <ServicesH2>Virtual Offices</ServicesH2>
-                        <ServicesP>You can access our platform online anywhere in the world.</ServicesP>
+                        <ServicesH2>Procurement</ServicesH2>
+                        <ServicesP>Lorem ipsum dolor sit amet.</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon3} />
-                        <ServicesH2>Premium Benefits</ServicesH2>
-                        <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+                        <ServicesH2>Construction</ServicesH2>
+                        <ServicesP>Lorem ipsum dolor sit amet.</ServicesP>
                     </ServicesCard>
                 </ServicesWrapper>
             </ServicesContainer>

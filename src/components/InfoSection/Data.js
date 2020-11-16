@@ -1,50 +1,47 @@
-export const homeObjOne = {
-    id: 'about',
+export const services1 = {
+    id: 'engineering',
+    lightBg: true,
+    imgStart: false,
+    topline: '',
+    headline: 'Engineering',
+    lightText: false,
+    description: 'Fit-for-purpose designs incorporate constructability and distributed execution to optimize equipment configurations and reduce site footprints.',
+    darkText: true,
+    buttonLabel: 'Free Quote',
+    img: require('../../images/engineering.svg'),
+    alt: 'svg',
+    primary: false,
+    dark: false
+}
+
+export const services2 = {
+    id: 'procurement',
     lightBg: false,
+    imgStart: false,
+    topline: '',
+    headline: 'Procurement',
     lightText: true,
-    lightTextDesc: true,
-    topline: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get started',
-    imgStart: false,
-    img: require('../../images/svg-1.svg'),
+    description: 'Home Build\'s global supply chain network provides enhanced sourcing, predictive analytics and expedited logistics.',
+    darkText: false,
+    buttonLabel: 'Free Quote',
+    img: require('../../images/procurement.svg'),
     alt: 'svg',
-    dark: true,
     primary: true,
-    darkText: false
+    dark: true
 }
 
-export const homeObjTwo = {
-    id: 'discover',
+export const services3 = {
+    id: 'construction',
     lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topline: 'Unlimited Access',
-    headline: 'Login to your account at any time',
-    description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
-    buttonLabel: 'Learn More',
     imgStart: false,
-    img: require('../../images/svg-2.svg'),
-    alt: 'svg',
-    dark: false,
-    primary: false,
-    darkText: true
-}
-
-export const homeObjThree = {
-    id: 'signup',
-    lightBg: true,
+    topline: '',
+    headline: 'Construction',
     lightText: false,
-    lightTextDesc: false,
-    topline: 'Join our Team',
-    headline: 'Creating an account is extremely easy',
-    description: "Get everything to set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
-    imgStart: false,
-    img: require('../../images/svg-3.svg'),
+    description: 'We mobilizes, hires and trains a direct-hire craft workforce, supporting local economies.',
+    darkText: true,
+    buttonLabel: 'Free Quote',
+    img: require('../../images/construction.svg'),
     alt: 'svg',
-    dark: false,
     primary: false,
-    darkText: true
+    dark: false
 }
